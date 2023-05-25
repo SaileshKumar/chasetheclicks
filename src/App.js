@@ -19,10 +19,10 @@ function App() {
   return (
     <>
       <div className="main-counter" id="main-counter">
-        {count}
+        Result: {count}
       </div>
       <button id="button" onClick={onClick}>
-        Click Me
+        Like
       </button>
     </>
   );
